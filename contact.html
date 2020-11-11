@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact me</title>
+</head>
+
+<body>
+  <h1>My contact details</h1>
+  <p>Fictional address</p>
+  <p>0123456789</p>
+  <p>email@gmail.com</p>
+  <hr>
+  <form class="" action="mailto:info@fakemail.com" method="post" enctype="text/plain"> <!--action: what should happen when you click submit.
+    Post method means you send the fields to the email client. enctype specifies how is the data of the form encoded, so it will make sense in the mail.-->
+    <label>Your name</label>
+    <input type="text" name="yourName"><br>
+    <label>Your Email</label>
+    <input type="email" name="yourEmail" value=""><br> <!--name identifies the data that is in the inputs, so is importat-->
+    <label>Your message</label><br>
+    <textarea name="yourMessage" rows="10" cols="30"></textarea><br> <!-- rows determine how tall, cols determine how wide. This is the default position-->
+    <input type="submit">
+  </form>
+</body>
+
+</html>
